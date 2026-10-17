@@ -5,15 +5,15 @@
 --------------------------------------------- */
 
 :root {
-  --bg: #0a0e14;
-  --bg-elevated: #10141c;
-  --text: #c9d1d9;
-  --text-dim: #6b7685;
-  --accent: #5ad1e6;
-  --accent-dim: #2f6b78;
-  --border: #1c2430;
-  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg: #000000;
+  --bg-elevated: #0a0a0a;
+  --text: #c6ff00;
+  --text-dim: #9a9a8a;
+  --accent: #39ff14;
+  --accent-dim: #1f6b0f;
+  --border: #1a1a1a;
+  --mono: 'VT323', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --sans: 'VT323', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   --max-width: 980px;
 }
 
@@ -25,6 +25,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
+  font-size: 19px;
   line-height: 1.6;
 }
 
