@@ -119,7 +119,21 @@
   <section class="contact" id="contact">
     <h3><span class="tag">04.</span> Get in touch</h3>
     <p>Have a process that needs automating, or a project you want to talk through? I read every message.</p>
-    <a class="cta" href="mailto:foets.tech@gmail.com">foets.tech@gmail.com</a>
+
+    <form class="contact-form" action="https://formspree.io/f/xwlvyepo" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="cta">Send message</button>
+    </form>
+
+    <p class="contact-alt">Prefer email directly? <a href="mailto:foets.tech@gmail.com">foets.tech@gmail.com</a></p>
   </section>
 
   <footer>
