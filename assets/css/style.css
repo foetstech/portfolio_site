@@ -12,8 +12,8 @@
   --accent: #39ff14;
   --accent-dim: #1f6b0f;
   --border: #1a1a1a;
-  --mono: 'VT323', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  --sans: 'VT323', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --mono: 'Jersey 10', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --sans: 'Jersey 10', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   --max-width: 980px;
 }
 
