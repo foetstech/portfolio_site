@@ -9,6 +9,7 @@
   const lines = [
     'Software Engineer.',
     'I build with AI, end to end.',
+    'Ex-call centre. Still fixing things remotely.',
     'Founder of FlowsGrow Automation.',
     'Founder of FOETS.TECH.'
   ];
