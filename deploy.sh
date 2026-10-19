@@ -1,5 +1,5 @@
 #!/bin/bash
-# Deploy script for portfolio_site — stages, commits, and pushes in one step.
+# Deploy script for portfolio_site. Stages, commits, and pushes in one step.
 # Usage: ./deploy.sh "commit message"
 
 set -e
