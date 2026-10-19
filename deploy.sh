@@ -3,7 +3,7 @@
 # Usage: ./deploy.sh "commit message"
 
 set -e
-cd /home/maincompute/portfolio_site
+cd "$(dirname "$(readlink -f "$0")")"
 
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 
@@ -24,4 +24,4 @@ git add .
 git commit -m "$COMMIT_MSG"
 git push origin main
 
-echo "[$TIMESTAMP] deployed. Live in a minute or two at https://foetstech.github.io/portfolio_site/"
+echo "[$TIMESTAMP] deployed. Live in a minute or two at https://yasinjones.is-a.dev/"

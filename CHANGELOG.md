@@ -23,4 +23,9 @@
 ## Outstanding
 
 - Project cards still placeholders (3x "Project name") — deliberately deferred until real projects are chosen
-- Custom domain not yet decided (user owns 12 domains incl. yasin.bio, yasinjones.site) vs default `foetstech.github.io` URL
+
+## 2026-10-19
+
+- Custom domain registered and live: `yasinjones.is-a.dev` (is-a-dev/register#57137, merged)
+- Removed local filesystem paths and references to unrelated private projects from `README.md` (public repo — those shouldn't have been there)
+- `deploy.sh` now resolves its own directory instead of a hardcoded path (was leaking the local username publicly)
